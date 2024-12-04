@@ -1,4 +1,4 @@
-let socket = io();
+const socket = io("https://f9dc-83-233-18-141.ngrok-free.app");
 
 let localVideo = document.getElementById("localVideo");
 let remoteVideo = document.getElementById("remoteVideo");
